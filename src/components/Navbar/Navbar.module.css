@@ -10,12 +10,3 @@
     color: white;
     padding: 20px;
 }
-
-.lista{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
-    list-style: none;
-    color: white;
-}
