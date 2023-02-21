@@ -1,14 +1,10 @@
+
+import styles from "./ItemListPres.module.css";
+
 const ItemListPres = ({mensaje}) => {
 
-    let estilosgretting = {
-        color: "red",
-        fontSize: "30px",
-        fontWeight: "bold",
-        textAlign: "center",
-    }
-    
     return (
-        <h1 style={estilosgretting}>{mensaje}</h1>    
+        <h1 className={"styles.titulo"}>{mensaje}</h1>    
     )
 }
 
