@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <>
       <Navbar/>
-      <ItemListContainer/>
+      <ItemListContainer tituloTemporal={"Este Producto pronto estara a la venta"}/>
       <Footer/>
       </>
     </div>

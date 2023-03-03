@@ -1,9 +1,9 @@
 import ItemListPres from './ItemListPres'
 
-const ItemListContainer = () => {
+const ItemListContainer = ({tituloTemporal}) => {
     return (
         <>
-            <ItemListPres gretting={"Este Producto pronto estara a la venta"}/>
+            <ItemListPres gretting={tituloTemporal}/>
         </>
     )
 }
