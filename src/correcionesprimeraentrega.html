@@ -1,0 +1,128 @@
+Hola Carlos! Como estás? Muchas gracias por tu entrega!! 😊
+
+
+
+Te envío las correcciones:
+
+
+
+📌 Ya tenemos nuestro componente NavBar, que va a funcionar como menú para realizar la navegación interna en tu proyecto
+hacia las diferentes categorías!! El NavBar además renderiza el componente CartWidget el cual contiene un icono de
+carrito!! Genial! ✔️
+
+📌 Además agregaste el logo de tu E-Commerce!, acá quizás podríamos sumar el nombre de tu tienda! ✔️
+
+📌 Tenemos también a ItemListContainer importado dentro de App.js, debajo de NavBar!! Perfecto✔️🤩
+
+📌 Además respetamos todas las convenciones vistas en clase. Y los imports y las etiquetas están siendo usados
+perfectamente! 👏👏
+
+
+
+⚡Un detalle, la entrega nos pedía pasar la prop greeting a través de props para que cuando lo agregáramos al App.js le
+pudieramos poner dinamicamente el mensaje que queremos renderizar en nuestro proyecto. Lo más importante es en realidad
+que quede bien claro como funcionan las props mas alla de donde lo aplicamos, por eso me interesaba comentartelo de
+forma que le puedas sacar provecho al curso de React donde trabajamos mucho con props. Te doy un ejemplo de cual sería
+una posible solución para la consigna de esta entrega:
+
+
+
+🙌 Como vimos en clase las props o propiedades son elementos que van a recibir por parámetros nuestros componentes para
+que sean dinámicos.
+
+
+
+Entonces en nuestro ItemListContainer sería:
+
+
+
+export const ItemListContainer = ({nombre-propiedad}) => {
+return (
+<h5>{nombre-propiedad}</h5>
+);
+}
+
+
+Y en App.js deberías importar a tu componente ItemListContainer solo que le pasas la prop.
+
+
+
+En el ejemplo que te di antes sería algo como:
+
+
+
+function App() {
+return (
+<>
+    <NavBar />
+    <ItemListContainer nombre-propiedad="Mensaje que quiero renderizar" />
+</>
+);
+}
+export default App;
+
+
+Respecto a tu consulta de css lo que te estaba ocurriendo es que estabas poniendo asi:
+
+
+
+// import styles from "./ItemListPres.module.css";
+
+const ItemListPres = ({gretting}) => {
+
+return (
+<h1 className={"styles.titulo"}>{gretting}</h1>
+)
+}
+
+export default ItemListPres
+
+
+Cuando la forma correcta para que se renderice tu estilo sería así:
+
+
+
+import ItemListPres from "./ItemListPres";
+import styles from "./ItemListPres.module.css";
+const ItemListContainer = () => {
+return (
+<>
+    <ItemListPres className={styles.titulo} />
+</>
+);
+};
+
+export default ItemListContainer;
+
+
+Avisame si quedan dudas con el estilado y lo resolvemos!! 😊
+
+
+
+🙌 Un último detalle, esto es solo opcional en esta instancia y a tu elección, se puede pensar en implementar una
+librería de estilos si te interesa para estilar a medida que va creciendo el proyecto. Repito es solo opcional y solo si
+te interesa! Lo que decidas esta genial 🙌
+
+
+
+Si te interesa indagar por el lado de los frameworks de css te dejo un par opciones recomendadas para que puedas
+agregar:
+
+
+
+✔️ Material UI (El profe dio after sobre esto)
+
+✔️ React Bootstrap
+
+
+
+También podés considerar utilizar otras alternativas como Tailwind, Chakra UI o Bulma que son geniales y son muy usadas
+en el ámbito laboral!
+
+
+
+💻 Excelente entrega, nada más para agregar!! Seguí así!🚀🚀
+
+
+
+Cualquier duda estamos en contacto para lo que necesites! 😊
