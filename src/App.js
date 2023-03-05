@@ -1,5 +1,5 @@
 // import Main from "./components/Main/Main";
-import Card from "./components/Card/Card";
+import Card from "./components/Pruebas MUI/Card/Card";
 import PruebasMUI from "./components/Pruebas MUI/PruebasMUI";
 
 function App() {
@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <>
         {/* <Main/> */}
-        <Card/>
         <PruebasMUI />
 
       </>
