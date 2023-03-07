@@ -3,6 +3,7 @@ import Logo from "./Logo/Logo";
 import CartWidget from "./CartWidget/CartWidget";
 import Menu from "./Menu/Menu";
 
+
 const Navbar2 = ()=>{
 
     let nombre= "Carlos"
