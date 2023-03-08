@@ -15,9 +15,9 @@ function App() {
       <Footer/> */}
                 <Navbar2 />
                 <ItemListContainer2 />
-                <ProductCard title="Producto #1" price={200} hayStock={true} />
-                <ProductCard title="Producto #2" price={335} hayStock={false} />
-                <ProductCard title="Producto #3" price={660} hayStock={true} />
+                <ProductCard title="Producto #1" price={200} stock={true} />
+                <ProductCard title="Producto #2"  stock={false} />
+                <ProductCard title="Producto #3" price={660} stock={true} />
             </>
         </div>
     );
