@@ -2,7 +2,8 @@
 // import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 // import Footer from "./components/Footer/Footer";
 
-import Navbar2 from "./components/PracticaSiguiendoAlProfe/Componentes Clase -2/Navbar2/Navbar2";
+import ItemListContainer2 from "./components/PracticaSiguiendoAlProfe/Componentes Clase -2/ItemListContainer/ItemListContainer2";
+import Navbar2 from "./components/PracticaSiguiendoAlProfe/Componentes Clase -2/Navbar/Navbar2";
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <ItemListContainer tituloTemporal={"Este Producto pronto estara a la venta"}/>
       <Footer/> */}
       <Navbar2 />
+      <ItemListContainer2/>
 
       </>
     </div>
