@@ -1,9 +1,10 @@
 import React from "react";
 
-const ProductCard = () => {
+const ProductCard = ({title, price, isRed}) => {
     return (
         <div>
-            <h1>Producto 1</h1>
+            <h1 className={isRed ? "red" : ""}>{title}</h1>
+            <h2>{price}</h2>
         </div>
     );
 };

@@ -6,22 +6,21 @@ import ItemListContainer2 from "./components/PracticaSiguiendoAlProfe/Componente
 import Navbar2 from "./components/PracticaSiguiendoAlProfe/Componentes Clase -2/Navbar/Navbar2";
 import ProductCard from "./components/PracticaSiguiendoAlProfe/Componentes Clase -2/ProductCard/ProductCard";
 
-
-
 function App() {
-  return (
-    <div className="App">
-      <>
-      {/* <Navbar/>
+    return (
+        <div className="App">
+            <>
+                {/* <Navbar/>
       <ItemListContainer tituloTemporal={"Este Producto pronto estara a la venta"}/>
       <Footer/> */}
-      <Navbar2 />
-      <ItemListContainer2/>
-      <ProductCard/>
-
-      </>
-    </div>
-  );
+                <Navbar2 />
+                <ItemListContainer2 />
+                <ProductCard title="Producto #1" price={200} hayStock={true} />
+                <ProductCard title="Producto #2" price={335} hayStock={false} />
+                <ProductCard title="Producto #3" price={660} hayStock={true} />
+            </>
+        </div>
+    );
 }
 
 export default App;
