@@ -2,9 +2,12 @@
 const Logo = () => {
     return (
         <div>
-            <h1 style={{color: "blue", fontSize: "50px"}}>LOGO</h1>
+            <img
+                src="https://res.cloudinary.com/dybsirwia/image/upload/v1677811224/E-commerce/i_lr7dus.png"
+                alt="logo" width="100px" height="80px"
+            />
         </div>
-    )
+    );
 }
 
 export default Logo
