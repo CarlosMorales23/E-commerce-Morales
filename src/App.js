@@ -1,7 +1,6 @@
 // import Navbar from "./components/Navbar/Navbar";
 // import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 // import Footer from "./components/Footer/Footer";
-
 import Clase2 from "./components/PracticaSiguiendoAlProfe/Componentes Clase -2/Clase2";
 
 function App() {

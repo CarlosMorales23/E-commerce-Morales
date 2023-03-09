@@ -3,10 +3,9 @@ import ItemListContainer2 from "./ItemListContainer/ItemListContainer2";
 import Navbar2 from "./Navbar/Navbar2";
 import ProductCard from "./ProductCard/ProductCard";
 
-const Clase2 = () => {
+const Clase3 = () => {
     return (
         <>
-            <h1>Aca hacer las Children</h1>
             <Navbar2 />
             <ItemListContainer2 />
             <ProductCard title="Producto #1" price={200} stock={true} />
@@ -16,4 +15,4 @@ const Clase2 = () => {
     );
 };
 
-export default Clase2;
+export default Clase3;
