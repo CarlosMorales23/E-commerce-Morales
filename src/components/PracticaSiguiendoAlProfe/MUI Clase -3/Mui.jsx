@@ -4,7 +4,7 @@ import Main from "./Main/Main";
 const Mui = () => {
     return (
         <>
-            <Main/>
+            <Main />
         </>
 
     )
