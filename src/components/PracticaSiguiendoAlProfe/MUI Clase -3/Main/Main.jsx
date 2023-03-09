@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
+import Button from "../Button/Button";
 import Grilla from "../Grilla/Grilla";
 
 
@@ -17,6 +18,7 @@ const Main = () => {
             }}
         >
             <Grilla />
+            <Button/>
         </Box>
     );
 };
