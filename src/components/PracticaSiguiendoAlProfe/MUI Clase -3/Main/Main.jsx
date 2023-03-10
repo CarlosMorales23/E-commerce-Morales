@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import Button from "../Button/Button";
-import CustomCard from "../CustomCard/CustomCard";
+import CustomCardContainer from "../CustomCard/CustomCardContainer";
 import Grilla from "../Grilla/Grilla";
 
 
@@ -20,7 +20,7 @@ const Main = () => {
         >
             <Grilla />
             <Button/>
-            <CustomCard/>
+            <CustomCardContainer/>
         </Box>
     );
 };

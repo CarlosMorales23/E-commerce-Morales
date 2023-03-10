@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import React from "react";
 
-const CustomCard = () => {
+const CustomCard = ({title}) => {
     return (
         <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -18,7 +18,7 @@ const CustomCard = () => {
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                    Titulo del Producto
+                    {title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     Descripción del Producto.
