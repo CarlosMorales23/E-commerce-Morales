@@ -16,18 +16,18 @@ import AdbIcon from "@mui/icons-material/Adb";
 const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-const Navbar = () => {
+const Navbar3 = () => {
     const [anchorElNav, setAnchorElNav] =
         (React.useState < null) | (HTMLElement > null);
     const [anchorElUser, setAnchorElUser] =
         (React.useState < null) | (HTMLElement > null);
 
-    const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-        setAnchorElNav(event.currentTarget);
-    };
-    const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-        setAnchorElUser(event.currentTarget);
-    };
+    // const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
+    //     setAnchorElNav(event.currentTarget);
+    // };
+    // const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
+    //     setAnchorElUser(event.currentTarget);
+    // };
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
@@ -73,7 +73,7 @@ const Navbar = () => {
                             aria-label="account of current user"
                             aria-controls="menu-appbar"
                             aria-haspopup="true"
-                            onClick={handleOpenNavMenu}
+                            // onClick={handleOpenNavMenu}
                             color="inherit"
                         >
                             <MenuIcon />
@@ -149,7 +149,7 @@ const Navbar = () => {
                     <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open settings">
                             <IconButton
-                                onClick={handleOpenUserMenu}
+                                // onClick={handleOpenUserMenu}
                                 sx={{ p: 0 }}
                             >
                                 <Avatar
@@ -192,4 +192,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Navbar3;

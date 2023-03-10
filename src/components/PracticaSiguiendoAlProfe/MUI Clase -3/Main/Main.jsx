@@ -3,7 +3,7 @@ import React from "react";
 import Button from "../Button/Button";
 import CustomCardContainer from "../CustomCard/CustomCardContainer";
 import Grilla from "../Grilla/Grilla";
-import Navbar from "../Navbar/Navbar";
+import Navbar3 from "../Navbar/Navbar3";
 
 
 const Main = () => {
@@ -19,7 +19,7 @@ const Main = () => {
                 },
             }}
         >
-            <Navbar/>
+            <Navbar3/>
             <Grilla />
             <Button/>
             <CustomCardContainer/>
