@@ -3,6 +3,7 @@ import React from "react";
 import Button from "../Button/Button";
 import CustomCardContainer from "../CustomCard/CustomCardContainer";
 import Grilla from "../Grilla/Grilla";
+import Navbar from "../Navbar/Navbar";
 
 
 const Main = () => {
@@ -18,9 +19,11 @@ const Main = () => {
                 },
             }}
         >
+            <Navbar/>
             <Grilla />
             <Button/>
             <CustomCardContainer/>
+            
         </Box>
     );
 };
