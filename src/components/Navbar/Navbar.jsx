@@ -3,11 +3,12 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+
 import Logo from "./Logo/Logo";
+import Menu from "./Menu/Menu";
+import CartWidget from "./CartWidget/CartWidget";
 
 const Navbar = () => {
     return (
@@ -31,11 +32,9 @@ const Navbar = () => {
                         <Logo/>
                     </Typography>
 
-                    
-                    <div>
-                        <h3>0</h3>
-                        <ShoppingCartIcon />
-                    </div>
+                    <Menu/>
+                    <CartWidget/>
+
                 </Toolbar>
             </AppBar>
         </Box>

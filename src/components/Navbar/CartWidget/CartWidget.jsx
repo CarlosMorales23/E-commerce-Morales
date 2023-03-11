@@ -1,10 +1,10 @@
-import { FaShoppingCart } from "react-icons/fa";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const CartWidget = () => {
     return (
-        <div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-            <span>0</span>
-            <FaShoppingCart color="white" size={40} />
+        <div>
+            <h3>0</h3>
+            <ShoppingCartIcon />
         </div>
     );
 };

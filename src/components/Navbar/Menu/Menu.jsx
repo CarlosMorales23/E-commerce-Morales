@@ -1,3 +1,4 @@
+import { Button, Stack } from "@mui/material";
 import styles from "./Menu.module.css"
 
 const Menu = () => {
@@ -10,12 +11,32 @@ const Menu = () => {
 
 
     return (
-    <ul className={styles.lista}>
-        <li><a style={estilo} href={referencia}>Balones</a></li>
-        <li><a style={estilo} href={referencia}>Zapatillas</a></li>
-        <li><a style={estilo} href={referencia}>Remeras</a></li>
-    </ul>
-    )
+        <div>
+            <ul className={styles.lista}>
+                <li>
+                    <a style={estilo} href={referencia}>
+                        Balones
+                    </a>
+                </li>
+                <li>
+                    <a style={estilo} href={referencia}>
+                        Zapatillas
+                    </a>
+                </li>
+                <li>
+                    <a style={estilo} href={referencia}>
+                        Remeras
+                    </a>
+                </li>
+            </ul>
+
+            <Stack spacing={2} direction="row">
+                <Button variant="text" color="black">Futbol</Button>
+                <Button variant="text" color="black">Beisbol</Button>
+                <Button variant="text" color="black">Selecciones</Button>
+            </Stack>
+        </div>
+    );
 }
 
 export default Menu
