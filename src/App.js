@@ -1,10 +1,9 @@
-
-
+import NavbarPres from "./components/Navbar/NavbarPres/NavbarPres";
 
 function App() {
     return (
         <div className="App">
-            <h1>HOLA HOLA</h1>
+            <NavbarPres />
         </div>
     );
 }
