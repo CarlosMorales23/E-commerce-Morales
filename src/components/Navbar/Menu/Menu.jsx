@@ -11,10 +11,9 @@ const Menu = () => {
 
     return (
     <ul className={styles.lista}>
-        <li><a style={estilo} href={referencia}>Home</a></li>
-        <li><a style={estilo} href={referencia}>Productos</a></li>
-        <li><a style={estilo} href={referencia}>Galeria</a></li>
-        <li><a style={estilo} href={referencia}>Contacto</a></li>
+        <li><a style={estilo} href={referencia}>Balones</a></li>
+        <li><a style={estilo} href={referencia}>Zapatillas</a></li>
+        <li><a style={estilo} href={referencia}>Remeras</a></li>
     </ul>
     )
 }
