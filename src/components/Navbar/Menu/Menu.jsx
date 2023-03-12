@@ -1,14 +1,16 @@
+import { Button, Stack } from "@mui/material";
 import React from "react";
-import styles from "./Menu.module.css"
+// import styles from "./Menu.module.css"
 
 const Menu = () => {
     return (
-        <ul className={styles.menu}>
-            <li>Futlbol</li>
-            <li>Beisbol</li>
-            <li>Basket</li>
-        </ul>
+        <Stack spacing={2} direction="row">
+            <Button variant="contained">Futbol</Button>
+            <Button variant="contained">Beisbol</Button>
+            <Button variant="contained">Basket</Button>
+        </Stack>
     );
 };
 
 export default Menu;
+

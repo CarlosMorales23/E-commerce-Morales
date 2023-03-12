@@ -9,7 +9,7 @@ const CartWidget = () => {
                 <h3 className={styles.contador}>1</h3>
             </div>
             <div className={styles.carrito}>
-                <ShoppingCartIcon />
+                <ShoppingCartIcon sx={{ fontSize:40}}/>
             </div>
         </div>
     );
