@@ -8,9 +8,9 @@ function App() {
             <NavbarPres />
             <ItemListContainer saludo="Pepito Romero" />
             <ProductCard title="Prodcuto #1" price="100$" descripcion="Este es el mejor producto" stock={true} />
-            <ProductCard title="Prodcuto #1" price="100$" descripcion="Este es el mejor producto" stock={false} />
+            {/* <ProductCard title="Prodcuto #1" price="100$" descripcion="Este es el mejor producto" stock={false} />
             <ProductCard title="Prodcuto #1"  descripcion="Este es el mejor producto" stock={true} />
-            <ProductCard title="Prodcuto #1" price="100$" descripcion="Este es el mejor producto" stock={true} />
+            <ProductCard title="Prodcuto #1" price="100$" descripcion="Este es el mejor producto" stock={true} /> */}
         </div>
     )
 }

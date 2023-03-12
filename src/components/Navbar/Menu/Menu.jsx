@@ -4,7 +4,7 @@ import React from "react";
 
 const Menu = () => {
     return (
-        <Stack spacing={2} direction="row">
+        <Stack spacing={4} direction="row">
             <Button variant="contained">Futbol</Button>
             <Button variant="contained">Beisbol</Button>
             <Button variant="contained">Basket</Button>
