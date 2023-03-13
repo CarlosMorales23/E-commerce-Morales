@@ -16,7 +16,7 @@ const ProductCard = ({
     stock,
 }) => {
     return (
-        <Card sx={{ maxWidth: 345, border: "3px solid black", padding: 1 }}>
+        <Card sx={{ maxWidth: 250, maxHeigh:200, border: "3px solid black", padding: 1 }}>
             <CardMedia
                 sx={{ height: 300, borderBlockEnd: "3px solid black" }}
                 image="https://res.cloudinary.com/dybsirwia/image/upload/v1678631504/remera-de-argentina-adidas-entrenamiento-azul_mpo7ox.jpg"
