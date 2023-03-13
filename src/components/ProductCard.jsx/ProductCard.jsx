@@ -1,18 +1,53 @@
+import {
+    Button,
+    Card,
+    CardActions,
+    CardContent,
+    CardMedia,
+    Typography,
+} from "@mui/material";
 import React from "react";
-import "./ProductCard.css"
+import "./ProductCard.css";
 
-const ProductCard = ({ title, price = "NO tiene precio", descripcion, stock }) => {
+const ProductCard = ({
+    title,
+    price = "NO tiene precio",
+    descripcion,
+    stock,
+}) => {
     return (
-        <div>
-            <h2 className={ stock ? "blue" : "red" }>{title}</h2>
-            <h3>{price}</h3>
-            <h4>{descripcion}</h4>
-            <br />
-        </div>
+        <Card sx={{ maxWidth: 345, border: "3px solid black", padding: 1 }}>
+            <CardMedia
+                sx={{ height: 300, borderBlockEnd: "3px solid black" }}
+                image="https://res.cloudinary.com/dybsirwia/image/upload/v1678631504/remera-de-argentina-adidas-entrenamiento-azul_mpo7ox.jpg"
+                title="Remera de Argentina"
+            />
+            <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                    <h3 className={stock ? "blue" : "red"}>{title}</h3>
+                </Typography>
+                <Typography gutterBottom variant="h6" component="div">
+                    <h3>{price}</h3>
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                    <h4>{descripcion}</h4>
+                </Typography>
+            </CardContent>
+            <CardActions>
+                <Button variant="contained" size="small">
+                    Comprar
+                </Button>
+                <Button variant="contained" size="small">
+                    Ver Información
+                </Button>
+            </CardActions>
+        </Card>
     );
 };
 
 export default ProductCard;
+
+//Como o donde puedo achicar esa imagen, quiero tarjetas mas pequeñas???
 
 //Usar a futuro
 // {
